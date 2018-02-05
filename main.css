@@ -4,10 +4,10 @@ body{
 nav ul a {
 	list-style-type: none;
 	margin: 0;
-	padding: 14px 16px;
+	padding: 5px 5px;
 	overflow: hidden;
 	float: center;
-	display: block;
+	display: inline-block;
     color: white;
     text-align: center;
     text-decoration: none;
