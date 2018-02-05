@@ -1,15 +1,18 @@
 body{
 	background-color: lightblue;
 }
-nav ul li a {
+nav ul a {
 	list-style-type: none;
-	
-	padding: 0;
+	margin: 0;
+	padding: 14px 16px;
 	overflow: hidden;
-	float: left;
+	float: center;
 	display: block;
-	text-align: center;
-	padding: 14
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #333;
+	
 	
 }
 
