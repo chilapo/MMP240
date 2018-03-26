@@ -1,0 +1,25 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0080FF;
+	background-color: black;
+}
+a{
+	color: #00FFFF;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+nav ul{
+	list-style: none;
+	text-align: center;
+	padding-left:  20px;
+	margin: 20px;
+	
+}
+nav li{
+	display: inline;
+	
+}
