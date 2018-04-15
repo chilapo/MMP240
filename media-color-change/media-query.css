@@ -1,0 +1,32 @@
+body{
+	font-family:Verdana, Arial, sans-serif;
+
+}
+.container{
+	width:90%;
+	background-color: blue;
+	margin:0 auto;
+	color:white;
+	padding:15px;
+}
+@media(min-width:700px){
+	.container{
+		background-color:red;
+		width:80%;
+	}
+}
+@media(min-width:960px){
+	.container{
+		background-color: gray;
+		width:50%;
+		color:black;
+	}
+}
+@media(min-width:1200px){
+	.container{
+		background-color:yellow;
+		width:30%;
+	}
+
+}
+
