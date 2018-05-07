@@ -1,0 +1,113 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin-left: 10%;
+    background-color:white;
+}
+/*H1 classes too*/
+h1{
+    text-align: center;
+    
+    
+    padding: 5px;
+}
+.top{
+    border-top: 5px solid black;
+}
+.be{
+    border-top: 5px solid black;
+    margin-bottom: 50px;
+    clear: both;
+    
+}
+.no{
+    
+}
+#cointainer{
+    margin-top: 10%;
+    
+}
+/*Navbar*/
+nav{
+    
+    
+
+}
+/*@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  
+  }
+
+/*video*/
+
+iframe{
+    width: 100%;
+    border-radius: 15px
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    position:inherit;
+    margin-top: 650px;
+    background-color: transparent;
+    height: 150%;
+    width: 100%;
+    clear: both
+}
+
+/*Images*/
+
+img{
+    width: 100%;
+    border-radius: 15px
+}
+
+.left{
+    width: 49%;
+    float: left;
+    
+}
+.right{
+    width: 49%;
+    float: right;
+}
+.lsmall{
+    width: 20%;
+    float: left
+    
+}
+.rsmall2{
+    width: 20%;
+    float:left; 
+}
+.gallery{
+    
+}
+
+
+/*W3Schools*/
+.move{
+    float: right
+}
+/*Social Media*/
+.multi{
+    float: right;
+}
+.met{
+    float:left;
+}
