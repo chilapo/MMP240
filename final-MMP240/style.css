@@ -13,7 +13,7 @@ h1{
     
     padding: 5px;
 }
-.top{
+.top1{
     border-top: 5px solid black;
 }
 .be{
@@ -55,7 +55,7 @@ nav{
 
 iframe{
     width: 100%;
-    border-radius: 15px
+   
 }
 
 /*Footer*/
@@ -63,18 +63,36 @@ iframe{
 footer{
     text-align: center;
     position:inherit;
-    margin-top: 650px;
     background-color: transparent;
     height: 150%;
     width: 100%;
-    clear: both
+    clear: both;
 }
-
+.top{
+     border-top: 5px solid black;
+    margin-top: 650px;
+}
+.top2{
+    border-top: 5px solid black;
+    margin-top: 650px;
+}
+.met{
+    clear: both;
+}
 /*Images*/
-
+.background{
+    color:aliceblue;
+    padding: 50px;
+    background-image:url("images/edm3.jpg");
+   
+}
+.edm{
+    width:100%;
+    
+}
 img{
     width: 100%;
-    border-radius: 15px
+    
 }
 
 .left{
@@ -88,19 +106,37 @@ img{
 }
 .lsmall{
     width: 20%;
-    float: left
+    float: left;
     
 }
 .rsmall2{
     width: 20%;
     float:left; 
 }
-.gallery{
-    
+/*Grid-tickets*/
+
+.the-grid{
+    display: grid;
+     grid-gap: 50px 100px;
+	grid-template-columns: 2fr 1fr 1fr 1fr ;
+	grid-auto-rows: 1fr 3fr 2fr 20px 10%;
+
+
+
+}
+
+.ticket2{
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+/*******************/
+.gallery1{
+   
 }
 
 
-/*W3Schools*/
+
 .move{
     float: right
 }
@@ -111,3 +147,37 @@ img{
 .met{
     float:left;
 }
+/*W3Schools*/
+
+.bu,  select, textarea{
+    width: 100%;
+    margin-top: 50px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Tickets
+div.gallery {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+*/
