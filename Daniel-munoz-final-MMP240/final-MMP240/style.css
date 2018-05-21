@@ -97,8 +97,7 @@ h1{
 /*video*/
 
 iframe{
-    float:center;
-   
+    width:100%;
 }
 
 /*Footer*/
