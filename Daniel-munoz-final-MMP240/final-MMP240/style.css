@@ -210,8 +210,7 @@ img{
 }
 .ticket2{
     border: 5px solid black;
-	grid-row-start: 2;
-	grid-row-end: 15;
+	
 }
 /*Location*/
 .the-grid3{
